@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Light Never Left — The Second Act</title>
+<meta name="description" content="The Light Never Left, a picture book by Rucha Daryani for children aged five to ten, about what happens to a whole family when one person’s life changes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,300;1,6..72,400;1,6..72,500&family=Karla:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  html, body { margin: 0; padding: 0; background: #EDE4CF; overflow-x: hidden; }
+  body { font-family: Karla, system-ui, sans-serif; color: #3B0014; -webkit-font-smoothing: antialiased; text-wrap: pretty; }
+  img { max-width: 100%; }
+  ::selection { background: #D4B388; color: #3B0014; }
+
+  .nav-link { font-size: 14px; letter-spacing: 0.1em; text-transform: uppercase; color: #3B0014; text-decoration: none; }
+  .nav-link:hover { color: #A15330; }
+  .nav-link-active { border-bottom: 1px solid #A15330; padding-bottom: 2px; }
+
+  .btn { display: inline-block; background: #A15330; color: #EDE4CF; padding: 17px 40px; border-radius: 2px; font-size: 14px; letter-spacing: 0.16em; text-transform: uppercase; text-decoration: none; transition: background-color .2s ease, color .2s ease; }
+  .btn:hover { background: #3B0014; color: #EDE4CF; }
+  .btn-invert:hover { background: #EDE4CF; color: #3B0014; }
+
+  .read-link { display: inline-flex; align-items: center; gap: 10px; margin-top: 30px; font-size: 14px; letter-spacing: 0.14em; text-transform: uppercase; color: #A15330; text-decoration: none; border-bottom: 1px solid rgba(161,83,48,0.45); padding-bottom: 4px; }
+  .read-link:hover { color: #3B0014; border-bottom-color: #3B0014; }
+
+  .email-link { text-decoration: none; }
+  .email-link:hover { color: #A15330; border-bottom-color: #A15330; }
+
+  .footer-link { color: #3B0014; text-decoration: none; }
+  .footer-link:hover { color: #A15330; }
+
+  .form-input::placeholder { color: rgba(59,0,20,0.45); }
+  .form-input:focus { border-color: #A15330; outline: none; }
+
+  .btn-outline { display: inline-block; background: transparent; color: #3B0014; border: 1px solid #3B0014; padding: 16px 39px; border-radius: 2px; font-size: 14px; letter-spacing: 0.16em; text-transform: uppercase; text-decoration: none; transition: background-color .2s ease, color .2s ease; }
+  .btn-outline:hover { background: #3B0014; color: #EDE4CF; }
+  .bk-wrap { max-width: 1180px; margin: 0 auto; }
+  .bk-pad { padding: clamp(64px,9vw,124px) clamp(20px,5vw,72px); }
+  .bk-split { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: clamp(40px,6vw,88px); align-items: center; }
+  .bk-eyebrow { margin: 0; font-size: 13px; letter-spacing: 0.26em; text-transform: uppercase; color: #A15330; }
+  .bk-h2 { margin: 0; font-family: Newsreader, Georgia, serif; font-weight: 500; font-size: clamp(34px,4.4vw,58px); line-height: 1.08; letter-spacing: -0.015em; color: #3B0014; }
+  .bk-h2 em { font-weight: 300; font-style: italic; color: #A15330; }
+  .bk-lead { margin: 0; font-family: Newsreader, Georgia, serif; font-weight: 300; font-size: clamp(22px,2.4vw,30px); line-height: 1.4; color: #3B0014; }
+  .bk-body { margin: 0; font-size: clamp(17px,1.35vw,20px); line-height: 1.7; font-weight: 300; color: #3B0014; max-width: 60ch; }
+  .bk-photo { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; border-radius: 4px; }
+  .bk-centre { max-width: 760px; margin: 0 auto; text-align: center; }
+  .bk-centre .bk-body { margin-left: auto; margin-right: auto; }
+  .bk-inline-link { color: #3B0014; font-weight: 400; text-decoration: underline; text-underline-offset: 3px; }
+  .bk-inline-link:hover { color: #A15330; }
+  .bk-stack.bk-stack > * + * { margin-top: 22px; }
+  .bk-stack.bk-stack > .bk-eyebrow + * { margin-top: 18px; }
+</style>
+</head>
+<body>
+  <header style="display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px 32px;padding:26px clamp(20px,5vw,72px) 22px;position:sticky;top:0;z-index:20;background:rgba(237,228,207,0.92);backdrop-filter:blur(8px)">
+    <div style="display:flex;align-items:center;gap:12px;color:#3B0014">
+      <img src="./assets/monogram.png" alt="The Second Act" style="width:38px;height:38px;border-radius:50%;object-fit:cover;display:block">
+      <span style="font-family:Newsreader,Georgia,serif;font-size:19px;letter-spacing:0.14em;text-transform:uppercase;line-height:1">The Second Act</span>
+    </div>
+    <nav style="display:flex;flex-wrap:wrap;align-items:center;gap:8px clamp(16px,2.2vw,30px)">
+      <a href="https://www.thesecondact.me/" class="nav-link">Home</a>
+      <a href="https://www.thesecondact.me/about.html" class="nav-link">About</a>
+      <a href="https://www.thesecondact.me/work-with-me.html" class="nav-link">Work with me</a>
+      <a href="https://www.thesecondact.me/book.html" class="nav-link nav-link-active">The book</a>
+      <a href="https://www.thesecondact.me/book.html#footer" class="nav-link">Press</a>
+      <a href="https://www.thesecondact.me/book.html#footer" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <section style="background:#D4B388" class="bk-pad">
+    <div class="bk-wrap bk-split">
+      <div style="justify-self:center;width:100%;max-width:500px">
+        <img src="./assets/book-cover.jpg" alt="The cover of The Light Never Left, showing Ari holding a sunflower drawing beside her mother in a wheelchair, with Theo and their father" style="display:block;width:100%;aspect-ratio:1/1;object-fit:cover;border-radius:2px;box-shadow:0 30px 60px -20px rgba(59,0,20,0.35)">
+      </div>
+      <div class="bk-stack">
+        <p class="bk-eyebrow" style="color:#3B0014">A picture book by Rucha Daryani</p>
+        <h1 style="margin:0;font-family:Newsreader,Georgia,serif;font-weight:500;font-size:clamp(48px,7vw,96px);line-height:1;letter-spacing:-0.02em;color:#3B0014">The Light<br><em style="font-weight:300;font-style:italic">Never Left</em></h1>
+        <p class="bk-lead" style="font-style:italic">For every family learning to see in the dark.</p>
+        <p class="bk-body" style="max-width:40ch">For children aged five to ten, about what happens to a whole family when one person’s life changes.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:14px;padding-top:10px">
+          <a href="https://www.thesecondact.me/book.html#order" class="btn">Order the book</a>
+          <a href="https://www.thesecondact.me/book.html#schools" class="btn-outline">Book a school reading</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#F7F2E7" class="bk-pad">
+    <div class="bk-centre bk-stack">
+      <p class="bk-eyebrow">The story</p>
+      <p class="bk-lead">Ari and Theo’s world is full of light, laughter and stories. Then, one day, everything shifts when the person at the centre of their world goes away.</p>
+      <p class="bk-body">There are no easy answers, only uncertainty and silence.</p>
+      <p class="bk-body"><em>The Light Never Left</em> is a tender story about the small acts of love that make a family whole again, and the courage it takes for a family to survive the unexpected.</p>
+    </div>
+  </section>
+
+  <section class="bk-pad">
+    <div class="bk-wrap bk-split">
+      <div><img src="./assets/book-open.jpg" alt="A reader holding The Light Never Left open" class="bk-photo"></div>
+      <div class="bk-stack">
+        <p class="bk-eyebrow">Why this one is different</p>
+        <p class="bk-body">Most children’s books about difficult things hand the reader a technique. <em>The Invisible String</em> gives you a string to imagine. <em>The Colour Monster</em> gives you jars to sort your feelings into. The technique is the product, and it works for the children it works for.</p>
+        <p class="bk-body">Ari finds her own way back, and it belongs to her. Another child’s would look like something else entirely. Drawing, or making jokes, or sitting in the same room a while longer without saying anything.</p>
+        <p class="bk-lead">Every other book hands your child a method. This one tells them their way back will look like nobody else’s, and that one small step, even in the dark, is enough.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="background:#3B0014" class="bk-pad">
+    <div style="max-width:980px;margin:0 auto;text-align:center" class="bk-stack">
+      <p style="margin:0;font-family:Newsreader,Georgia,serif;font-weight:300;font-style:italic;font-size:clamp(32px,4.6vw,58px);line-height:1.2;color:#EDE4CF">Maybe brave just means taking one small step, even in the dark.</p>
+      <p class="bk-eyebrow" style="color:#D4B388">From the book</p>
+    </div>
+  </section>
+
+  <section style="background:#F7F2E7" class="bk-pad">
+    <div class="bk-wrap bk-split">
+      <div class="bk-stack">
+        <h2 class="bk-h2">Where was the <em>light</em> today?</h2>
+        <p class="bk-body">At the end of the book, Ari realises the light she had been missing was never only in her mother. It was in Theo’s help, in her father’s quiet steadiness, in her own drawings.</p>
+        <p class="bk-body">That became a question we put on the wall at the launch, and people filled it with notes before they left.</p>
+        <p class="bk-body">Ask it at dinner, or at bedtime, or at the end of a school day. Everyone answers, adults included. The answers can be very small. Someone made toast. Someone laughed. Nothing gets ranked and nothing gets corrected.</p>
+        <p class="bk-lead">It takes five minutes and no materials, and it is the one thing I would ask any family reading this book to try.</p>
+      </div>
+      <div><img src="./assets/book-notes.jpg" alt="A glass wall at the launch covered in handwritten notes under a banner reading Where was the light today?" class="bk-photo" style="object-position:50% 15%"></div>
+    </div>
+  </section>
+
+  <section class="bk-pad">
+    <div class="bk-wrap">
+      <img src="./assets/book-reading.jpg" alt="Rucha reading The Light Never Left with her two children on the sofa" style="display:block;width:100%;aspect-ratio:2/1;object-fit:cover;object-position:50% 40%;border-radius:4px">
+    </div>
+    <div style="max-width:720px;margin:clamp(48px,6vw,72px) auto 0" class="bk-stack">
+      <p class="bk-eyebrow">Why I wrote it</p>
+      <p class="bk-body">In 2024, at 38, I had a stroke following a medical error. I came through several surgeries and relearned how to walk and how to speak.</p>
+      <p class="bk-body">My children were nine and five. I watched them try to make sense of a home that had changed overnight, and I could not find anything written for them.</p>
+      <p class="bk-lead">So I wrote it from my daughter’s side rather than my own.</p>
+    </div>
+  </section>
+
+  <section style="background:#F7F2E7" class="bk-pad">
+    <div class="bk-centre bk-stack">
+      <p class="bk-eyebrow">Who it is for</p>
+      <p class="bk-lead">Children aged five to ten living through a change at home. A parent’s illness. A separation. A stretch of depression. Any change that makes home feel unfamiliar.</p>
+      <p class="bk-body">And the adults reading it to them, who are usually carrying the same thing.</p>
+    </div>
+  </section>
+
+  <section class="bk-pad">
+    <div class="bk-wrap bk-split">
+      <div><img src="./assets/book-launch.jpg" alt="Rucha Daryani and Sania Mirza holding The Light Never Left at the launch in Dubai" class="bk-photo" style="object-position:50% 30%"></div>
+      <div class="bk-stack">
+        <p class="bk-eyebrow">The launch</p>
+        <p class="bk-lead"><em>The Light Never Left</em> was unveiled in Dubai on 21 October 2026 by Sania Mirza.</p>
+        <p class="bk-body">The evening also marked the launch of The Second Act, a movement about what happens after life changes in ways we never expected.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="schools" style="background:#F7F2E7" class="bk-pad">
+    <div style="max-width:760px;margin:0 auto" class="bk-stack">
+      <h2 class="bk-h2">For schools and <em>libraries</em></h2>
+      <p class="bk-body">I visit schools to read <em>The Light Never Left</em> and to talk with children about what it means to keep going when things are hard, and about the fact that there is no single right way to do it.</p>
+      <p class="bk-body">Sessions usually finish with the light question and a wall of their own.</p>
+      <div style="padding-top:12px"><a href="mailto:hello@thesecondact.me?subject=School%20reading%20enquiry" class="btn">Enquire about a reading</a></div>
+    </div>
+  </section>
+
+  <section id="order" style="background:#D4B388" class="bk-pad">
+    <div class="bk-wrap bk-split">
+      <div class="bk-stack">
+        <h2 class="bk-h2">Order the <em style="color:#3B0014">book</em></h2>
+        <p class="bk-body"><em>The Light Never Left</em> is available now from UHIB Books, the publisher, who handle payment and delivery.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:14px;padding-top:14px">
+          <a href="https://uhibbook.com/product/the-light-never-left/" class="btn" target="_blank" rel="noopener">Order from UHIB Books</a>
+          <!-- AMAZON: add <a href="AMAZON_URL" class="btn-outline" target="_blank" rel="noopener">Order from Amazon</a> here -->
+        </div>
+      </div>
+      <div><img src="./assets/book-signing.jpg" alt="Rucha signing a copy of The Light Never Left" class="bk-photo"></div>
+    </div>
+  </section>
+
+  <section style="background:#3B0014;color:#EDE4CF;padding:clamp(44px,6vw,72px) clamp(20px,5vw,72px)">
+    <div class="bk-wrap" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px clamp(32px,5vw,80px);font-size:15px;line-height:1.8;font-weight:300">
+      <div style="display:flex;flex-direction:column">
+        <span style="font-family:Newsreader,Georgia,serif;font-size:26px;margin-bottom:10px">The Light <em style="font-weight:300;color:#D4B388">Never Left</em></span>
+        <span>Written by Rucha Daryani</span>
+        <span>Illustrated by Eshaly Esti</span>
+        <span>Published by UHIB Books</span>
+      </div>
+      <div style="display:flex;flex-direction:column;padding-top:6px">
+        <span>ISBN 978 9948 52002 3</span>
+        <span>Picture book, ages five to ten</span>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" style="padding:clamp(52px,7vw,100px) clamp(20px,5vw,72px) 44px;max-width:1180px;margin:0 auto">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:clamp(32px,4vw,64px);align-items:start">
+      <div>
+        <img src="./assets/logo-mark.png" alt="The Second Act" style="width:104px;height:104px;border-radius:50%;object-fit:cover;display:block">
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <span style="font-size:12px;letter-spacing:0.24em;text-transform:uppercase;color:#79764B">Get in touch</span>
+        <a href="mailto:hello@thesecondact.me" class="footer-link" style="font-family:Newsreader,Georgia,serif;font-size:clamp(20px,1.8vw,26px)">hello@thesecondact.me</a>
+        <span style="font-size:12px;letter-spacing:0.24em;text-transform:uppercase;color:#79764B;margin-top:6px">Press enquiries</span>
+        <a href="mailto:press@thesecondact.me" class="footer-link" style="font-family:Newsreader,Georgia,serif;font-size:clamp(20px,1.8vw,26px)">press@thesecondact.me</a>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <span style="font-size:12px;letter-spacing:0.24em;text-transform:uppercase;color:#79764B">Elsewhere</span>
+        <a href="https://www.instagram.com/thesecondact.me/" class="footer-link" style="font-size:15px;letter-spacing:0.04em">Instagram</a>
+        <a href="https://www.linkedin.com/in/thesecondact/" class="footer-link" style="font-size:15px;letter-spacing:0.04em">LinkedIn</a>
+      </div>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:10px 28px;justify-content:space-between;margin-top:clamp(40px,5vw,72px);padding-top:22px;border-top:1px solid rgba(59,0,20,0.16);font-size:13px;color:rgba(59,0,20,0.6)">
+      <span>© 2026 The Second Act. Dubai, UAE.</span>
+      <span style="font-family:Newsreader,Georgia,serif;font-style:italic;font-size:15px;color:#79764B">Not bouncing back. Building forward.</span>
+    </div>
+  </footer>
+
+</body>
+</html>
