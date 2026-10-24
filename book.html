@@ -172,11 +172,15 @@
     <div class="bk-wrap bk-split">
       <div class="bk-stack">
         <h2 class="bk-h2">Order the <em style="color:#3B0014">book</em></h2>
-        <p class="bk-body"><em>The Light Never Left</em> is available now from UHIB Books, the publisher, who handle payment and delivery.</p>
-        <div style="display:flex;flex-wrap:wrap;gap:14px;padding-top:14px">
-          <a href="https://uhibbook.com/product/the-light-never-left/" class="btn" target="_blank" rel="noopener">Order from UHIB Books</a>
-          <!-- AMAZON: add <a href="AMAZON_URL" class="btn-outline" target="_blank" rel="noopener">Order from Amazon</a> here -->
+        <p class="bk-body">Order your copy of <em>The Light Never Left</em>.</p>
+        <div>
+          <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+          <stripe-buy-button
+            buy-button-id="buy_btn_1UU07bI1lQl6azE8zABnkfTj"
+            publishable-key="pk_live_51NwTy9I1lQl6azE8DEXfFYWYdpc2LgGdRkW5bVDne9p7QafHWhzgHGDGF5l5dV67DWP2Z420s3s87cVJ6s9MubHB00XOezFeXT">
+          </stripe-buy-button>
         </div>
+        <!-- AMAZON: add <a href="AMAZON_URL" class="btn-outline" target="_blank" rel="noopener">Order from Amazon</a> here -->
       </div>
       <div><img src="./assets/book-signing.jpg" alt="Rucha signing a copy of The Light Never Left" class="bk-photo"></div>
     </div>
@@ -188,7 +192,6 @@
         <span style="font-family:Newsreader,Georgia,serif;font-size:26px;margin-bottom:10px">The Light <em style="font-weight:300;color:#D4B388">Never Left</em></span>
         <span>Written by Rucha Daryani</span>
         <span>Illustrated by Eshaly Esti</span>
-        <span>Published by UHIB Books</span>
       </div>
       <div style="display:flex;flex-direction:column;padding-top:6px">
         <span>ISBN 978 9948 52002 3</span>
